@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ចុះឈ្មោះ</title>
+    <link rel="stylesheet" href="../css/rigister.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <div class="form-container">
+      <h2 class="rigister-to-learn">ចុះឈ្មោះចូលរៀ​ន</h2>
+      <form id="createAccountForm">
+        <div class="form-group">
+          <div class="label-first-name">
+            <label for="lastName">នាមត្រកូល</label>
+            <div class="star">
+              <svg
+                stroke="currentColor"
+                stroke-width="2"
+                viewBox="0 0 24 24"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                class="inline w-[0.60rem] h-[0.60rem] text-red-500"
+                height="1em"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path d="M12 12l8 -4.5"></path>
+                <path d="M12 12v9"></path>
+                <path d="M12 12l-8 -4.5"></path>
+                <path d="M12 12l8 4.5"></path>
+                <path d="M12 3v9"></path>
+                <path d="M12 12l-8 4.5"></path>
+              </svg>
+            </div>
+          </div>
+          <input type="text" id="firstName" name="firstName" required />
+        </div>
+        <div class="form-group">
+          <div class="label-first-name">
+            <label for="lastName">នាមខ្លួន </label>
+            <div class="star">
+              <svg
+                stroke="currentColor"
+                stroke-width="2"
+                viewBox="0 0 24 24"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                class="inline w-[0.60rem] h-[0.60rem] text-red-500"
+                height="1em"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path d="M12 12l8 -4.5"></path>
+                <path d="M12 12v9"></path>
+                <path d="M12 12l-8 -4.5"></path>
+                <path d="M12 12l8 4.5"></path>
+                <path d="M12 3v9"></path>
+                <path d="M12 12l-8 4.5"></path>
+              </svg>
+            </div>
+          </div>
+          <input type="text" id="lastName" name="lastName" required />
+        </div>
+        <div class="form-group">
+          <div class="label-first-name">
+            <label for="lastName">អុីម៉ែល</label>
+            <div class="star">
+              <svg
+                stroke="currentColor"
+                stroke-width="2"
+                viewBox="0 0 24 24"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                class="inline w-[0.60rem] h-[0.60rem] text-red-500"
+                height="1em"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path d="M12 12l8 -4.5"></path>
+                <path d="M12 12v9"></path>
+                <path d="M12 12l-8 -4.5"></path>
+                <path d="M12 12l8 4.5"></path>
+                <path d="M12 3v9"></path>
+                <path d="M12 12l-8 4.5"></path>
+              </svg>
+            </div>
+          </div>
+          <input type="email" id="email" name="email" required />
+        </div>
+        <div class="form-group password-group">
+          <div class="label-first-name">
+            <label for="lastName">ពាក្យសម្ងាត់</label>
+            <div class="star">
+              <svg
+                stroke="currentColor"
+                stroke-width="2"
+                viewBox="0 0 24 24"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                class="inline w-[0.60rem] h-[0.60rem] text-red-500"
+                height="1em"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path d="M12 12l8 -4.5"></path>
+                <path d="M12 12v9"></path>
+                <path d="M12 12l-8 -4.5"></path>
+                <path d="M12 12l8 4.5"></path>
+                <path d="M12 3v9"></path>
+                <path d="M12 12l-8 4.5"></path>
+              </svg>
+            </div>
+          </div>
+          <input
+            type="password"
+            id="createPassword"
+            name="createPassword"
+            required
+          />
+          <span
+            class="toggle-password"
+            onclick="togglePassword('createPassword')"
+          >
+            <span class="eye"><i class="fa-regular fa-eye-slash"></i></span
+          ></span>
+        </div>
+        <div class="form-group password-group">
+          <label for="lastName">បញ្ជាក់ពាក្យសម្ងាត់</label>
+          <input type="password" id="confirmPassword" name="confirmPassword" />
+          <span
+            class="toggle-password"
+            onclick="togglePassword('confirmPassword')"
+            ><span class="eye"><i class="fa-regular fa-eye-slash"></i></span
+          ></span>
+        </div>
+        <p id="message" style="display: none">ពាក្យសម្ងាត់មិនត្រឹមត្រូវ</p>
+        <a href="../dashboard/index.html" id="createSucessfull"
+          ><button class="btn-create-account">បង្កើតគណនី</button></a
+        >
+      </form>
+      <p>
+        ប្រសិនបើអ្នកបានចុះឈ្មោះរួចហើយ?
+        <a href="#" onclick="login()">ចូលនៅទីនេះ</a>
+      </p>
+    </div>
+
+    <script src="../js/rigister.js"></script>
+  </body>
+</html>

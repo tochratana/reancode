@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/hero.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>មេរៀន</title>
+  </head>
+  <body>
+    <header>
+      <!-- Annountment -->
+      <div class="annountment">
+        <!-- Button hover -->
+        <a
+          href="#"
+          class="group relative inline-flex items-center overflow-hidden"
+        >
+          <span class="absolute -end-full transition-all group-hover:end-4">
+            <svg
+              class="size-5 rtl:rotate-180"
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M17 8l4 4m0 0l-4 4m4-4H3"
+              />
+            </svg>
+          </span>
+          <span class="transition-all group-hover:me-4">
+            ទទួលយកព័រមានបន្ថែម
+          </span>
+        </a>
+        <!-- End button hover -->
+      </div>
+      <!-- Navbar -->
+      <div class="header">
+        <a href="../index.html" class="logo"
+          >រៀន<span class="code">កូដ</span></a
+        >
+        <nav>
+          <ul>
+            <li>
+              <a href="../index.html">ទំព័រដើម</a>
+            </li>
+            <li>
+              <a href="./courses.html">មេរៀន</a>
+            </li>
+            <li><a href="./resources.html">ឯកសារបន្ថែម</a></li>
+            <li>
+              <a href="./about-us.html" style="color: rgb(255, 128, 0)"
+                >អំពីរយើង</a
+              >
+            </li>
+          </ul>
+        </nav>
+        <a href="../auth/rigister.html" target="_blank"
+          ><button class="register">ចុះឈ្មោះ</button></a
+        >
+      </div>
+    </header>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script>
+      // Initialize Typed.js
+      const options = {
+        strings: ["ការអានជាសៀវភៅ", "ការមើលជាវិឌីអូ", "ផ្ទាល់ជាមួយអ្នកជំនាញ"],
+        typeSpeed: 100,
+        backSpeed: 50,
+        loop: true,
+        showCursor: false,
+      };
+      const typed = new Typed(".typed-text", options);
+    </script>
+  </body>
+</html>
