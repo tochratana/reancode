@@ -1,0 +1,47 @@
+.profile-user {
+  width: 50px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.profile-description {
+  z-index: 10;
+  display: none;
+  border-radius: 5px;
+  padding: 20px;
+  position: absolute;
+  background-color: white;
+  box-shadow: 1px 2px 10px 2px rgb(232, 238, 238);
+  right: 50px;
+  top: 110px;
+}
+.profile-description > ul > li {
+  cursor: pointer;
+  padding: 5px 15px;
+  margin: 5px;
+  font-size: 20px;
+  border-radius: 5px;
+}
+.profile-description > ul > li:hover {
+  padding: 5px 15px;
+  background-color: var(--primary-color-hover);
+}
+.profile-description > a {
+  margin: 5px;
+  padding: 5px 15px;
+  font-size: 20px;
+  color: red;
+}
+.img-dashborde {
+  padding-right: 50px;
+  width: 700px;
+}
+.des {
+  color: var(--primary-color);
+}
+.greeting-user {
+  font-size: var(--big-font);
+}
+.description-to-user {
+  color: black;
+  font-size: var(--nomal-font);
+}

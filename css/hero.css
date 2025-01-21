@@ -12,6 +12,7 @@ input {
 :root {
   --primary-color: rgb(255, 128, 0);
   --secondary-color: rgb(12, 12, 156);
+  --primary-color-hover: rgb(230, 199, 160);
   --nomal-font: 22px;
   --title-font: 40px;
   --big-font: 60px;
@@ -32,13 +33,13 @@ input {
   display: flex;
   gap: 30px;
 }
-.header  nav  ul  li {
+.header nav ul li {
   list-style-type: none;
   font-size: var(--nomal-font);
 }
-.header nav ul  li:hover {
+.header nav ul li:hover {
   color: var(--primary-color);
-  transition: .2s;
+  transition: 0.2s;
 }
 .header > nav > ul > li > a {
   text-decoration: none;

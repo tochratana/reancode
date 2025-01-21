@@ -1,6 +1,7 @@
 const eyes = document.querySelectorAll(".eye");
 const createSucessfull = document.getElementById("createSucessfull");
 const lastName = document.getElementById("lastName");
+
 eyes.forEach((eye) => {
   let isOpen = true; // Track the state of each eye individually
 
@@ -59,11 +60,12 @@ document
     console.log(createPassword);
     console.log(confirmPassword);
     console.log(lastName);
+    let lastName_convert = JSON.stringify(lastName);
+    localStorage.setItem("name", lastName_convert);
+    
 
     // Here you can add your form submission logic, e.g., sending data to a server
     window.location.href = "../dashboard/index.html";
 
     // window.location.href = "success.html"; // Redirect to a success page
   });
-
-console.log("Hello");
