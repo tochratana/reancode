@@ -45,3 +45,25 @@
   color: black;
   font-size: var(--nomal-font);
 }
+.container-of-resource {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.container-resource {
+  border-radius: 5px;
+  margin: auto;
+  width: 60%;
+  background-color: gainsboro;
+  display: flex;
+  gap: 20px;
+}
+.container-resource:hover {
+  /* box shadow */
+  box-shadow: 1px 2px 10px 2px rgb(232, 238, 238);
+}
+.box-of-resource,
+.img-resoruce {
+  width: 300px;
+  border-radius: 5px 0 0 5px;
+}
