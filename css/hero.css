@@ -64,6 +64,9 @@ input {
   display: flex;
   justify-content: space-between;
 }
+.hero-margin {
+  margin-top: 200px;
+}
 .des {
   width: 60%;
   padding: 120px 150px;
@@ -133,6 +136,9 @@ input {
     margin: auto;
   }
 }
+.helloo {
+  display: none;
+}
 @media (max-width: 768px) {
   .header {
     gap: 1rem;
@@ -162,6 +168,22 @@ input {
   }
   .des-rean {
     width: 100%;
+  }
+  .hello {
+    display: block;
+    position: absolute;
+    width: 100%;
+    background-color: white;
+    margin: auto;
+    right: 0px;
+    top: 110px;
+    font-size: var(--nomal-font);
+    text-align: left;
+    padding: 30px;
+  }
+  .hello ul li {
+    border-bottom: 2px solid forestgreen;
+    padding: 5px 0;
   }
 }
 

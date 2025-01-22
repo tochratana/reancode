@@ -1,6 +1,16 @@
-const toggle = document.querySelector(".toggle");
-const navLists = document.querySelector(".nav-lists");
+const toggle = document.querySelector(".menu-bar");
+const navLists = document.querySelector(".helloo");
+const hero = document.querySelector(".hero");
+let running = true;
 
 toggle.addEventListener("click", function () {
-  navLists.classList.toggle("active");
+  if (running) {
+    navLists.classList.add("hello");
+    hero.classList.add("hero", "hero-margin");
+    running = false;
+  } else {
+    navLists.classList.remove("hello");
+    hero.classList.remove("hero-margin");
+    running = true;
+  }
 });

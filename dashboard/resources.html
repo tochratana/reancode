@@ -7,6 +7,13 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="../css/not-found.css" />
     <link rel="stylesheet" href="../css/dashbord.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <title>មេរៀន</title>
   </head>
   <body>
@@ -59,8 +66,27 @@
             <li><a href="./about-us.html">អំពីរយើង</a></li>
           </ul>
         </nav>
-        <div>
-          <img class="profile-user" src="../image/profile-user.jpg" alt="" />
+        <div class="helloo">
+          <ul>
+            <li>
+              <a href="./index.html" style="color: rgb(255, 128, 0)"
+                >ទំព័រដើម</a
+              >
+            </li>
+            <li>
+              <a href="./courses.html">មេរៀន</a>
+            </li>
+            <li><a href="./resources.html">ឯកសារបន្ថែម</a></li>
+            <li>
+              <a href="./about-us.html">អំពីរយើង</a>
+            </li>
+          </ul>
+        </div>
+        <div class="container-menu-bar">
+          <div class="menu-bar"><i class="fa-solid fa-bars"></i></div>
+          <div>
+            <img class="profile-user" src="../image/profile-user.jpg" alt="" />
+          </div>
         </div>
         <div class="profile-description" id="display_none">
           <ul>
@@ -73,7 +99,7 @@
         </div>
       </div>
     </header>
-    <main>
+    <main class="hero">
       <section class="container-of-resource">
         <div class="container-resource">
           <div class="box-of-resource">
@@ -119,6 +145,7 @@
         </div>
       </section>
     </main>
+    <script src="../js/navBar.js"></script>
     <script src="../js/rigister.js"></script>
     <script src="../js/dashbord.js"></script>
   </body>
