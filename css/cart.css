@@ -3,14 +3,13 @@
   display: flex;
   flex-direction: column;
   /* width: 100%; */
-  width: 350px;
+  /* width: 350px; */
   max-width: 26rem;
   border-radius: 1rem;
   background-color: white;
   color: #374151;
   box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1),
     0 2px 4px -1px rgba(0, 0, 0, 0.06);
-  justify-self: center;
 }
 
 .card-image {
@@ -26,7 +25,7 @@
 .card-image img {
   /* width: 100%; */
   /* height: auto; */
-  width: 350px;
+  /* width: 350px; */
 }
 
 .image-overlay {
@@ -131,8 +130,27 @@
   color: white;
 }
 .container-cart {
+  width: 95%;
+  padding: 40px 0;
   display: grid;
+  gap: 30px;
+  margin: auto;
   grid-template-columns: repeat(4, 1fr);
+}
+@media (max-width: 1024px) {
+  .container-cart {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+@media (max-width: 724px) {
+  .container-cart {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (max-width: 456px) {
+  .container-cart {
+    grid-template-columns: repeat(1, 1fr);
+  }
 }
 .des-of-courses {
   display: flex;
