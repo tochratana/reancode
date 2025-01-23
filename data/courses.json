@@ -1,0 +1,14 @@
+[
+  {
+    "id": 1,
+    "title": "html5",
+    "desciptipn": "នេះជាវគ្គសិក្សារ HTML ដែលយើងនឹងរៀនយល់អំពី",
+    "detail": [
+      "ការរៀបចំនៅ folder structure",
+      "យល់ដឹងអំពិ Structure website",
+      "ទាក់ទង់ទៅនឹងការប្រើប្រាស់ inline style",
+      "ការ build នៅ Project ជាក់ស្តែង"
+    ],
+    "link": "../course-detail/html5.html"
+  }
+]
