@@ -31,10 +31,10 @@
   font-size: 20px;
   color: red;
 }
-.img-dashborde {
+/* .img-dashborde {
   padding-right: 50px;
   width: 700px;
-}
+} */
 .des {
   color: var(--primary-color);
 }

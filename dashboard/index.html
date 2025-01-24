@@ -100,24 +100,71 @@
       </div>
     </header>
     <main>
-      <section class="hero">
-        <div class="des">
-          <h1 class="greeting-user">
-            ជម្រាបសួរ, <span class="name-user"></span>!
+      <section
+        class="flex flex-col md:flex-row justify-between items-center px-[100px] pt-[100px] md:px-[100px] gap-[200px] pb-[30px]"
+      >
+        <!-- Left Section: Greeting and Description -->
+        <div class="w-full md:w-1/2 mb-8 md:mb-0">
+          <h1 class="text-2xl md:text-6xl font-bold mb-4">
+            ជម្រាបសួរ, <span class="text-blue-600 name-user"></span>!
           </h1>
-          <p class="description-to-user">
+          <p class="text-gray-700 mb-6 text-xl leading-10">
             នេះគឺជាវគ្គសិក្សារដែលយើងបានផ្តល់ឱ្យអ្នកនៅមេរៀនល្អជាច្រើន
             ហើយអ្នកទាំងអស់គ្នាក៏អាចមើលជា វីឌីអូ ឬជាការអានជាអត្ថបទបានផងដែរ
             នៅក្នុង ការសិក្សារមួយនេះយើងនិងធ្វើការបញ្ជូលនៅវគ្គសិក្សារថ្មីៗ
             ហើយយើងនឹងឆ្លើយតបអ្នកទាំងអស់គ្នាគ្រប់ពេលដែឡត្រូវការ។តាមរយះកម្មវិសិក្សារមួយនេះក៏ជួយឱ្យអ្នកទាំងអស់គ្នាបានធ្វើការជាមួយនឹង
             project ដោយផ្ទាល់។
           </p>
+          <div class="flex space-x-4">
+            <button
+              class="bg-blue-600 text-white px-6 py-2 rounded-md hover:bg-blue-700 transition duration-300"
+            >
+              ចាប់ផ្តើមសិក្សារ
+            </button>
+            <button
+              class="bg-green-600 text-white px-6 py-2 rounded-md hover:bg-green-700 transition duration-300"
+            >
+              ចាប់ផ្តើមសិក្សារ
+            </button>
+          </div>
         </div>
-        <div class="img-dashborde">
-          <img src="../assets/elearning.svg" alt="" />
+
+        <!-- Right Section: To-Do List -->
+        <div class="w-full md:w-1/2">
+          <div class="bg-white p-6 rounded-lg shadow-lg">
+            <h1 class="text-xl font-bold text-center mb-5">To-Do List</h1>
+            <form id="task-form" class="flex flex-col space-y-4 mb-5">
+              <input
+                class="p-2 border-2 border-gray-300 rounded-md"
+                type="text"
+                id="task-input"
+                placeholder="Enter your task"
+                required
+              />
+              <input
+                class="p-2 border-2 border-gray-300 rounded-md"
+                type="time"
+                id="task-time"
+                required
+              />
+              <button
+                type="submit"
+                class="bg-purple-600 text-white px-4 py-2 rounded-md hover:bg-purple-700 transition duration-300"
+              >
+                Add Task
+              </button>
+            </form>
+            <ul id="task-list" class="space-y-2">
+              <!-- Tasks will be dynamically inserted here -->
+            </ul>
+          </div>
         </div>
       </section>
+      <div
+        class="container-to-do-list flex flex-col md:flex-row flex-wrap gap-3 pl-[100px] pb-10"
+      ></div>
     </main>
+    <script src="../js/to-do-list.js"></script>
     <script src="../js/navBar.js"></script>
     <script src="../js/rigister.js"></script>
     <script src="../js/dashbord.js"></script>
