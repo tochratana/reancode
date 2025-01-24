@@ -14,6 +14,7 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
   </head>
   <body>
     <header>
@@ -91,15 +92,15 @@
         </div>
       </div>
     </header>
-    <main class="hero">
+    <main class="main">
       <section class="custom-section">
         <div class="container">
           <div class="content-wrapper">
-            <div class="image-container">
+            <div class="image-container" data-aos="zoom-in">
               <img alt="content" src="../image/profile-background.jpg" />
             </div>
             <div class="profile-container">
-              <div class="profile-info">
+              <div class="profile-info" data-aos="fade-right">
                 <div class="profile-icon">
                   <img
                     style="border-radius: 50%"
@@ -113,7 +114,7 @@
                   <p>ខ្ញុំបាទឈ្មោះទូច រតនារៀននៅវិទ្យាស្ថានស៊ីតិក ឆ្នាំទី1។</p>
                 </div>
               </div>
-              <div class="profile-description">
+              <div class="profile-description" data-aos="fade-left">
                 <p>
                   សួស្តី! ខ្ញុំឈ្មោះ ទូច រតនា
                   ហើយបច្ចុប្បន្នខ្ញុំជានិស្សិតឆ្នាំទី 1 ជំនាញព័ត៌មានវិទ្យា
@@ -154,5 +155,9 @@
       </section>
     </main>
     <script src="../js/navBar.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>

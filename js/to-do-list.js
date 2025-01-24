@@ -32,13 +32,13 @@ function addTask(taskText, taskTimeValue) {
 		  <h1 class="text-white ml-4 border-2 py-2 px-3 rounded-full"><i class="fa-solid fa-clock"></i></h1>
 		  <p class="ml-4 text-white uppercase">${taskTimeValue}</p>
 		</div>
-		<p class="py-6 px-6 text-lg tracking-wide text-center">${taskText}</p>
+		<p class="py-6 px-1 line-clamp-1 text-lg tracking-wide text-center">${taskText}</p>
 		<div class="flex justify-center px-5 mb-2 text-sm">
 		  <button
 			type="button"
 			class="delete-btn border border-red-500 text-red-500 rounded-md px-4 py-2 m-2 transition duration-500 ease select-none hover:text-white hover:bg-red-600 focus:outline-none focus:shadow-outline"
 		  >
-			Delete
+			លុបចោល
 		  </button>
 		</div>
 	  </div>

@@ -10,7 +10,7 @@ input {
   font-family: "Battambang", sans-serif;
 }
 :root {
-  --primary-color: rgb(255, 128, 0);
+  --primary-color: #ff8000;
   --secondary-color: rgb(12, 12, 156);
   --primary-color-hover: rgb(230, 199, 160);
   --nomal-font: 22px;
@@ -23,6 +23,7 @@ input {
   text-align: center;
   cursor: pointer;
 }
+/* យើងបានផ្តល់នៅកត់ចំណាំ ឫការ Note ទុករបស់អ្នក */
 .header {
   display: flex;
   justify-content: space-between;
