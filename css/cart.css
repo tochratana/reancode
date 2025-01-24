@@ -137,7 +137,7 @@
   width: 95%;
   padding: 40px 20px;
   display: grid;
-  gap: 30px;
+  gap: 15px;
   margin: auto;
   grid-template-columns: repeat(5, 1fr);
 }

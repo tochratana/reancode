@@ -29,14 +29,14 @@ function addTask(taskText, taskTimeValue) {
 		class="bg-white max-w-xs shadow-lg mx-auto border-b-4 border-indigo-500 rounded-2xl overflow-hidden hover:shadow-2xl transition duration-500 transform hover:scale-105 cursor-pointer"
 	  >
 		<div class="bg-indigo-500 flex h-20 items-center">
-		  <h1 class="text-white ml-4 border-2 py-2 px-4 rounded-full">1</h1>
+		  <h1 class="text-white ml-4 border-2 py-2 px-3 rounded-full"><i class="fa-solid fa-clock"></i></h1>
 		  <p class="ml-4 text-white uppercase">${taskTimeValue}</p>
 		</div>
 		<p class="py-6 px-6 text-lg tracking-wide text-center">${taskText}</p>
 		<div class="flex justify-center px-5 mb-2 text-sm">
 		  <button
 			type="button"
-			class="delete-btn border border-indigo-500 text-indigo-500 rounded-md px-4 py-2 m-2 transition duration-500 ease select-none hover:text-white hover:bg-indigo-600 focus:outline-none focus:shadow-outline"
+			class="delete-btn border border-red-500 text-red-500 rounded-md px-4 py-2 m-2 transition duration-500 ease select-none hover:text-white hover:bg-red-600 focus:outline-none focus:shadow-outline"
 		  >
 			Delete
 		  </button>

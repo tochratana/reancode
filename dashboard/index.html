@@ -99,12 +99,12 @@
         </div>
       </div>
     </header>
-    <main>
+    <main class="main">
       <section
-        class="flex flex-col md:flex-row justify-between items-center px-[100px] pt-[100px] md:px-[100px] gap-[200px] pb-[30px]"
+        class="flex flex-col xl:flex-row justify-between items-center px-[100px] pt-[100px] md:px-[100px] gap-[10%] pb-[30px]"
       >
         <!-- Left Section: Greeting and Description -->
-        <div class="w-full md:w-1/2 mb-8 md:mb-0">
+        <div class="w-full xl:w-[50%] mb-8 xl:mb-0">
           <h1 class="text-2xl md:text-6xl font-bold mb-4">
             ជម្រាបសួរ, <span class="text-blue-600 name-user"></span>!
           </h1>
@@ -124,25 +124,27 @@
             <button
               class="bg-green-600 text-white px-6 py-2 rounded-md hover:bg-green-700 transition duration-300"
             >
-              ចាប់ផ្តើមសិក្សារ
+              ចាប់ផ្តើមសរសេរកូដ
             </button>
           </div>
         </div>
 
         <!-- Right Section: To-Do List -->
-        <div class="w-full md:w-1/2">
-          <div class="bg-white p-6 rounded-lg shadow-lg">
-            <h1 class="text-xl font-bold text-center mb-5">To-Do List</h1>
-            <form id="task-form" class="flex flex-col space-y-4 mb-5">
+        <div class="w-full xl:w-1/2">
+          <div class="bg-[#09122C] p-6 rounded-lg shadow-lg h-[50vh]">
+            <h1 class="text-xl font-bold text-center mb-[40px] text-white">
+              ការកត់ចំណាំ
+            </h1>
+            <form id="task-form" class="flex flex-col">
               <input
-                class="p-2 border-2 border-gray-300 rounded-md"
+                class="p-2 border-2 border-gray-300 rounded-md mb-[40px]"
                 type="text"
                 id="task-input"
-                placeholder="Enter your task"
+                placeholder="សូមកត់ចំណាំការកត់ត្រាទុករបស់អ្នកនៅទីនេះ"
                 required
               />
               <input
-                class="p-2 border-2 border-gray-300 rounded-md"
+                class="p-2 border-2 border-gray-300 rounded-md mb-[40px]"
                 type="time"
                 id="task-time"
                 required
@@ -154,12 +156,14 @@
                 Add Task
               </button>
             </form>
-            <ul id="task-list" class="space-y-2">
-              <!-- Tasks will be dynamically inserted here -->
-            </ul>
           </div>
         </div>
       </section>
+      <h1
+        class="text-center text-2xl p-[30px] underline underline-offset-8 text-red-500"
+      >
+        ចាប់ផ្តើមធ្វើការងាររបស់អ្នកនៅទីនេះ
+      </h1>
       <div
         class="container-to-do-list flex flex-col md:flex-row flex-wrap gap-3 pl-[100px] pb-10"
       ></div>
