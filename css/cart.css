@@ -3,7 +3,7 @@
   display: flex;
   flex-direction: column;
   /* width: 100%; */
-  /* width: 350px; */
+  /* width: 300px; */
   max-width: 26rem;
   border-radius: 1rem;
   background-color: white;
@@ -14,7 +14,7 @@
 
 .card-image {
   position: relative;
-  margin: 1rem;
+  margin: 0.5rem;
   overflow: hidden;
   border-radius: 1rem;
   background-color: #64748b;
@@ -25,7 +25,7 @@
 .card-image img {
   /* width: 100%; */
   /* height: auto; */
-  /* width: 350px; */
+  /* width: 300px; */
 }
 
 .image-overlay {
@@ -65,18 +65,18 @@
 }
 
 .card-content {
-  padding: 0.5rem 1.5rem;
+  padding: 4px 10px;
 }
 
 .card-header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 0.75rem;
+  margin-bottom: 0.2rem;
 }
 
 .card-header h5 {
-  font-size: 1.25rem;
+  font-size: 1rem;
   font-weight: 500;
   color: #1e293b;
 }
@@ -103,17 +103,21 @@
 }
 
 .card-footer {
-  padding: 1.5rem;
+  padding: 0.5rem;
   padding-top: 0.1rem;
+}
+
+.des-of-courses{
+  font-size: 0.75rem;
 }
 
 .reserve-button {
   width: 100%;
-  padding: 0.8rem 1rem;
+  padding: 0.5rem 0.5rem;
   border-radius: 0.5rem;
   background-color: var(--primary-color-hover);
   color: black;
-  font-size: 1rem;
+  font-size: 0.75rem;
   font-weight: 700;
   text-transform: uppercase;
   border: none;
@@ -131,11 +135,16 @@
 }
 .container-cart {
   width: 95%;
-  padding: 40px 0;
+  padding: 40px 20px;
   display: grid;
   gap: 30px;
   margin: auto;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(5, 1fr);
+}
+@media (max-width: 1224px) {
+  .container-cart {
+    grid-template-columns: repeat(4, 1fr);
+  }
 }
 @media (max-width: 1024px) {
   .container-cart {

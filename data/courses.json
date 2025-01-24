@@ -1,8 +1,10 @@
 [
   {
     "id": 1,
-    "title": "html5",
-    "desciptipn": "នេះជាវគ្គសិក្សារ HTML ដែលយើងនឹងរៀនយល់អំពី",
+    "title": "រៀនសរសេរនៅ HTML 5",
+    "image": "../image/courses/1.webp",
+    "rating": "4.5",
+    "desciption": "នេះជាវគ្គសិក្សារ HTML ដែលយើងនឹងរៀនយល់អំពី",
     "detail": [
       "ការរៀបចំនៅ folder structure",
       "យល់ដឹងអំពិ Structure website",
@@ -10,5 +12,61 @@
       "ការ build នៅ Project ជាក់ស្តែង"
     ],
     "link": "../course-detail/html5.html"
+  },
+  {
+    "id": 2,
+    "title": "សិក្សារអំពី​ CSS",
+    "image": "../image/courses/2.webp",
+    "rating": "5.0",
+    "desciption": "នោក្នុងវគ្គសិក្សារ CSS យើងនឹងយល់ដឹងអំពី",
+    "detail": [
+      "ការប្រើប្រាស់ flex, grid រៀបចំ layout",
+      "ការបង្កើតនៅ Animation",
+      "ការរៀបចំនៅ sytle ដែលមានភាពស្មុគស្មាញ",
+      "ស្វែងយល់អំពីរ property និង​ value"
+    ],
+    "link": "../course-detail/css.html"
+  },
+  {
+    "id": 3,
+    "title": "ការប្រើប្រាស់នៅ JavaScript",
+    "image": "../image/courses/3.webp",
+    "rating": "4.5",
+    "desciption": "យើងនឹងស្វែងយល់អំពីភាពដែលធ្វើឱ្យមាន Interactive ជាមួយ website",
+    "detail": [
+      "រៀនអំពី DOM",
+      "ការបង្កើតនៅ Handle Event លើព្រឺត្តិការណ៍",
+      "ស្វែងយល់អំពីការ Fetch Data មកប្រើ",
+      "បានធ្វើនៅ Project "
+    ],
+    "link": "../course-detail/javascript.html"
+  },
+  {
+    "id": 4,
+    "title": "ការប្រើប្រាស់នៅ JavaScript",
+    "image": "../image/courses/4.webp",
+    "rating": "3.5",
+    "desciption": "យើងនឹងស្វែងយល់អំពីភាពដែលធ្វើឱ្យមាន Interactive ជាមួយ website",
+    "detail": [
+      "រៀនអំពី DOM",
+      "ការបង្កើតនៅ Handle Event លើព្រឺត្តិការណ៍",
+      "ស្វែងយល់អំពីការ Fetch Data មកប្រើ",
+      "បានធ្វើនៅ Project "
+    ],
+    "link": "../course-detail/reactjs.html"
+  },
+  {
+    "id": 5,
+    "title": "ការប្រើប្រាស់នៅ JavaScript",
+    "image": "../image/courses/5.webp",
+    "rating": "3.5",
+    "desciption": "យើងនឹងស្វែងយល់អំពីភាពដែលធ្វើឱ្យមាន Interactive ជាមួយ website",
+    "detail": [
+      "រៀនអំពី DOM",
+      "ការបង្កើតនៅ Handle Event លើព្រឺត្តិការណ៍",
+      "ស្វែងយល់អំពីការ Fetch Data មកប្រើ",
+      "បានធ្វើនៅ Project "
+    ],
+    "link": "../course-detail/bootstrap.html"
   }
 ]
