@@ -60,6 +60,9 @@ input {
 .code {
   color: var(--primary-color);
 }
+.main {
+  padding: 10px;
+}
 .hero {
   display: flex;
   justify-content: space-between;
