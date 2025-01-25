@@ -3,6 +3,54 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Basic Meta Tags -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Toch Ratana" />
+    <meta
+      name="description"
+      content="A platform to learn and explore web development with hands-on projects and tutorials."
+    />
+    <meta
+      name="keywords"
+      content="Web Development, JavaScript, React, Tailwind CSS, IT Student, Learning Platform"
+    />
+    <meta name="robots" content="index, follow" />
+
+    <!-- Open Graph (OG) Meta Tags for Social Media -->
+    <meta
+      property="og:title"
+      content="'ទូច រតនា' : ​រៀនកូដ ជាគេហ័រទំព័រសម្រាប់រៀន"
+    />
+    <meta
+      property="og:description"
+      content="នេះជាគំរោងនៅក្នុង final របស់ web development នៅ SETEC របស់ខ្ញុំ ហើយខ្ញុំបង្កើតវាក៏នៅក្នុង គៅលបំណងចែករំលែកនៅ ការ research នៅ បច្ចេកវិទ្យាថ្មីៗផងដែរ"
+    />
+    <meta property="og:image" content="https://example.com/og-image.jpg" />
+    <meta property="og:url" content="https://reancode.netlify.app/" />
+    <meta property="og:type" content="website" />
+
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta
+      name="twitter:title"
+      content="'ទូច រតនា' : រៀនកូដ ជាគេហ័រទំព័រសម្រាប់រៀន"
+    />
+    <meta
+      name="twitter:description"
+      content="នេះជាគំរោងនៅក្នុង final របស់ web development នៅ SETEC របស់ខ្ញុំ ហើយខ្ញុំបង្កើតវាក៏នៅក្នុង គៅលបំណងចែករំលែកនៅ ការ research នៅ បច្ចេកវិទ្យាថ្មីៗផងដែរ"
+    />
+    <meta
+      name="twitter:image"
+      content="https://reancode.netlify.app/thumnail.jpg"
+    />
+
+    <!-- Favicon -->
+    <link
+      rel="icon"
+      href="https://reancode.netlify.app/image/logoschoolwithbackground.jpg"
+      type="image/x-icon"
+    />
     <link rel="stylesheet" href="../css/hero.css" />
     <link rel="stylesheet" href="../css/dashbord.css" />
     <script src="https://cdn.tailwindcss.com"></script>
@@ -178,8 +226,14 @@
         ចាប់ផ្តើមធ្វើការងាររបស់អ្នកនៅទីនេះ
       </h1>
       <div
-        class="container-to-do-list flex flex-col md:flex-row flex-wrap gap-3 pl-[100px] pb-10"
-      ></div>
+        class="container-to-do-list container m-auto flex flex-col md:flex-row flex-wrap gap-3  pb-10 h-80"
+      >
+        <div
+          class="box-empty flex justify-center items-center bg-blue-200 container m-auto h-80 hidden"
+        >
+          Empty
+        </div>
+      </div>
     </main>
     <script src="../js/to-do-list.js"></script>
     <script src="../js/navBar.js"></script>

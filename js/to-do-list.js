@@ -4,12 +4,15 @@ const taskInput = document.getElementById("task-input");
 const taskTime = document.getElementById("task-time");
 const taskList = document.getElementById("task-list");
 const container_to_do_list = document.querySelector(".container-to-do-list");
+const box_empty = document.querySelector(".box-empty");
 
 // Load tasks from localStorage
 document.addEventListener("DOMContentLoaded", loadTasks);
 
 // Handle form submission
 taskForm.addEventListener("submit", (e) => {
+  console.log("Hello");
+  box_empty.style.display = "none";
   e.preventDefault();
   const taskText = taskInput.value;
   const taskTimeValue = taskTime.value;

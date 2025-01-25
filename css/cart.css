@@ -7,7 +7,9 @@
   max-width: 26rem;
   border-radius: 1rem;
   background-color: white;
+  justify-self: center;
   color: #374151;
+  min-height: 350px; /* Set a consistent height */
   box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1),
     0 2px 4px -1px rgba(0, 0, 0, 0.06);
 }
@@ -20,12 +22,6 @@
   background-color: #64748b;
   box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1),
     0 2px 4px -1px rgba(0, 0, 0, 0.06);
-}
-
-.card-image img {
-  /* width: 100%; */
-  /* height: auto; */
-  /* width: 300px; */
 }
 
 .image-overlay {
@@ -66,6 +62,7 @@
 
 .card-content {
   padding: 4px 10px;
+  flex-grow: 1; /* Allows the description to take up available space */
 }
 
 .card-header {
@@ -107,7 +104,7 @@
   padding-top: 0.1rem;
 }
 
-.des-of-courses{
+.des-of-courses {
   font-size: 0.75rem;
 }
 
@@ -135,28 +132,22 @@
 }
 .container-cart {
   width: 95%;
-  padding: 40px 20px;
   display: grid;
   gap: 15px;
   margin: auto;
-  grid-template-columns: repeat(5, 1fr);
+  grid-template-columns: repeat(4, 1fr);
 }
 @media (max-width: 1224px) {
-  .container-cart {
-    grid-template-columns: repeat(4, 1fr);
-  }
-}
-@media (max-width: 1024px) {
   .container-cart {
     grid-template-columns: repeat(3, 1fr);
   }
 }
-@media (max-width: 724px) {
+@media (max-width: 1024px) {
   .container-cart {
     grid-template-columns: repeat(2, 1fr);
   }
 }
-@media (max-width: 456px) {
+@media (max-width: 724px) {
   .container-cart {
     grid-template-columns: repeat(1, 1fr);
   }
