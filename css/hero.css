@@ -28,7 +28,7 @@ input {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 2px 50px;
+  /* padding: 2px 50px; */
 }
 .header > nav > ul {
   display: flex;
@@ -73,7 +73,7 @@ input {
 }
 .des {
   width: 60%;
-  padding: 120px 150px;
+  padding: 120px 60px;
 }
 .stady-animation {
   width: 700px;
@@ -135,6 +135,7 @@ input {
   .des {
     text-align: center;
     width: 100%;
+    padding: 50px 60px;
   }
   .stady-animation {
     margin: auto;

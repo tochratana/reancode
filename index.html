@@ -1,8 +1,60 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <!-- Meta for responsive -->
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Basic Meta Tags -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Toch Ratana" />
+    <meta
+      name="description"
+      content="A platform to learn and explore web development with hands-on projects and tutorials."
+    />
+    <meta
+      name="keywords"
+      content="Web Development, JavaScript, React, Tailwind CSS, IT Student, Learning Platform"
+    />
+    <meta name="robots" content="index, follow" />
+
+    <!-- Open Graph (OG) Meta Tags for Social Media -->
+    <meta
+      property="og:title"
+      content="'ទូច រតនា' : ​រៀនកូដ ជាគេហ័រទំព័រសម្រាប់រៀន"
+    />
+    <meta
+      property="og:description"
+      content="នេះជាគំរោងនៅក្នុង final របស់ web development នៅ SETEC របស់ខ្ញុំ ហើយខ្ញុំបង្កើតវាក៏នៅក្នុង គៅលបំណងចែករំលែកនៅ ការ research នៅ បច្ចេកវិទ្យាថ្មីៗផងដែរ"
+    />
+    <meta property="og:image" content="https://example.com/og-image.jpg" />
+    <meta property="og:url" content="https://reancode.netlify.app/" />
+    <meta property="og:type" content="website" />
+
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta
+      name="twitter:title"
+      content="'ទូច រតនា' : រៀនកូដ ជាគេហ័រទំព័រសម្រាប់រៀន"
+    />
+    <meta
+      name="twitter:description"
+      content="នេះជាគំរោងនៅក្នុង final របស់ web development នៅ SETEC របស់ខ្ញុំ ហើយខ្ញុំបង្កើតវាក៏នៅក្នុង គៅលបំណងចែករំលែកនៅ ការ research នៅ បច្ចេកវិទ្យាថ្មីៗផងដែរ"
+    />
+    <meta
+      name="twitter:image"
+      content="https://example.com/twitter-image.jpg"
+    />
+
+    <!-- Favicon -->
+    <link
+      rel="icon"
+      href="./image/logoschoolwithbackground.jpg"
+      type="image/x-icon"
+    />
+
+    <!-- Title -->
     <link rel="stylesheet" href="./css/hero.css" />
     <link rel="stylesheet" href="./css/colabration.css" />
     <script src="https://cdn.tailwindcss.com"></script>
@@ -17,7 +69,7 @@
     <title>រៀនកូដ</title>
   </head>
   <body id="page1">
-    <header>
+    <header class="">
       <!-- Annountment -->
       <div class="annountment">
         <!-- Button hover -->
@@ -48,7 +100,7 @@
         <!-- End button hover -->
       </div>
       <!-- Navbar -->
-      <div class="header">
+      <div class="header container m-auto">
         <a href="./index.html" class="logo">រៀន<span class="code">កូដ</span></a>
         <nav>
           <ul>
@@ -84,7 +136,7 @@
     </header>
     <main class="main">
       <!-- Hero Section -->
-      <section class="hero">
+      <section class="hero container m-auto">
         <div class="des">
           <div>
             <h1 class="rean" data-aos="fade-right">រៀនកូដដោយ</h1>
@@ -385,7 +437,9 @@
         </div>
       </section>
       <!-- Feedback -->
-      <section class="text-gray-600 body-font relative">
+      <section
+        class="text-gray-600 body-font relative mx-auto container xl:max-w-[1560px]"
+      >
         <div class="absolute inset-0 bg-gray-300">
           <iframe
             width="100%"
